@@ -1,5 +1,5 @@
 .body {
-    background-color: navy;
+    background-color:orange;
     color: white;
     height: 4.5em;
     display: flex;
@@ -25,4 +25,14 @@
 
 .navlink:hover {
     text-decoration: underline;
+}
+.newPost {
+    align-items: center;
+    background-color:purple;
+    text-align: center;
+    color: white;
+    justify-content: space-between;
+    display: center;
+    margin-top:10px;
+    margin-left: 50px;
 }

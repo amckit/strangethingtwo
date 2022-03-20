@@ -104,9 +104,9 @@ export const getPosts = async () => {
       }
     )
       .then((response) => response.json())
-      .then((result) => {
+      .then((result) => { console.log(result.data);
         localStorage.setItem("token", result.data.token);
-        console.log(result);
+        
       })
       .catch(console.error);
   };

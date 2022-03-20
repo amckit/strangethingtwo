@@ -28,7 +28,7 @@ const Navbar = () => {
     },
     {
       to: "/login",
-      text: "Log out",
+      text: "Logout",
       shouldDisplay: displayVal, 
       onClick: () => localStorage.removeItem("token")
     },

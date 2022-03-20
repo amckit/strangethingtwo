@@ -55,7 +55,7 @@ const PostList = () => {
       </div>
       {isLoggedIn && (
         <div>
-          <button onClick={() => handleCreate()}>Add New Form</button>
+          <button className="newPost"onClick={() => handleCreate()}>Create New Post</button>
         </div>
       )}
       {filterPosts.map((post) => (
